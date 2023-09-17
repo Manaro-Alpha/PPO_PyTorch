@@ -12,7 +12,7 @@ This repo contains an optimised version of PPO using tricks like Generalised Adv
 
 ## Results
 
-| PPO Discrete LunarLander-v2  | PPO Discrete LunarLander-v2 |
+| PPO Continuous LunarLander-v2  | PPO Continuous LunarLander-v2 |
 | :-------------------------:|:-------------------------: |
 | ![](https://github.com/Manaro-Alpha/PPO_PyTorch/blob/main/GIFs/rl-video-LunarLanderContinuous-v2-episode-1000%20.gif) | ![](https://github.com/Manaro-Alpha/PPO_PyTorch/blob/main/Plot_Graphs/output.png) |
 
