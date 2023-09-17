@@ -6,9 +6,9 @@ This repo contains an optimised version of PPO using tricks like Generalised Adv
 
 ## Usage
 
-- To train the agent, run 'train.py'
-- Run 'tensorboard --logdir runs' to visualise the data in your browser
-- To test the trained policy, run 'test.py'
+- To train the agent, run `train.py`
+- Run `tensorboard --logdir runs` to visualise the data in your browser
+- To test the trained policy, run `test.py`
 
 ## Results
 
