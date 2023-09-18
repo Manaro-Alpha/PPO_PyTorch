@@ -12,4 +12,4 @@ def train(env_id,total_timesteps):
     model.save(path)
 
 if __name__ == '__main__':
-    train("LunarLanderContinuous-v2",1000000)
+    train("BipedalWalker-v3",1405000)

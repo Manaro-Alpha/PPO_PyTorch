@@ -246,15 +246,15 @@ class PPO():
                 self.save('./ppo_LunarLanderContinuous-v2')
                 
     def _init_hyperparams(self):
-        self.timesteps_per_batch = 1024
-        self.max_timesteps_per_episode = 1000
-        self.num_epochs = 4
+        self.timesteps_per_batch = 2048
+        self.max_timesteps_per_episode = 1600
+        self.num_epochs = 10
         self.clip = 0.2
         self.lr = 2.5e-4
-        self.gamma = 0.999
+        self.gamma = 0.99
         self.lam = 0.98
         self.num_minibatch = 6
-        self.ent_coef = 0
+        self.ent_coef = 0.001
         self.target_kl = 0.02
         self.max_grad_norm = 0.5
         self.env_id = "Pendulum-v1"
