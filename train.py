@@ -8,7 +8,7 @@ def train(env_id,total_timesteps):
     model = PPO(env)
     model.env_id = env_id
     model.learn(total_timesteps)
-    path = 'PPO_' + env_id + "_model_" + str(int(time.time()))
+    path = 'PPO_' + env_id + "_model_"
     model.save(path)
 
 if __name__ == '__main__':

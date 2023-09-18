@@ -7,11 +7,11 @@ def test():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     total_test_episodes = 10
     max_ep_length = 500
-    env = gym.make("LunarLanderContinuous-v2",render_mode= 'human')
+    env = gym.make("BipedalWalker-v3",render_mode= 'human')
     obs_dim = env.observation_space.shape[0]
     action_dim = env.action_space.shape[0]
     test_agent = PPO(env)
-    test_agent.load("PPO_LunarLanderContinuous-v2_model_1694924985")
+    test_agent.load("PPO_BipedalWalker-v3_model_1694988276")
 
     print("##############################")
     test_running_award = 0
