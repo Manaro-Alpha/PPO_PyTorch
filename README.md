@@ -2,7 +2,7 @@
 
 ## About
 
-This repo contains an optimised version of PPO using tricks like Generalised Advantage Estimates, Mini Batch updates etc.
+This repo contains an optimised version of PPO using tricks like Generalised Advantage Estimates, Entropy Regularisation etc. in an attempt to match the performance offered by StableBaselines3's PPO.
 
 ## Usage
 
